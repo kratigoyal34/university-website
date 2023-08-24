@@ -112,7 +112,15 @@
   .nav-links ul{
     padding: 30px;
   }
+  .row{
+    flex-direction: column;
   }
+  .testimonial-col img{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+  
   
   .course{
     width: 80%;
@@ -153,10 +161,6 @@
   .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
   }
-  @media(max-width:700px){
-    .row{
-      flex-direction: column;
-    }
   }
   
     .campus{
@@ -197,6 +201,12 @@
       transform: translate(-50%);
       position: absolute;
     }
+
+    .layer:hover h3{
+      bottom: 49%;
+      opacity: 1;
+    }
+
   .facilities{
     width: 80%
     margin:auto;
@@ -213,10 +223,15 @@
     width:80%;
     border-radius: 8px;
   }
+
+  .facilities-col p{
+    padding: 0px;
+  }
+
   .facilities-col h3{
     margin-top: 12px;
     margin-bottom: 11px;
-    /* text-align: left; */
+    text-align: left;
   }
   
   .testimonials{
